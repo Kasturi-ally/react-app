@@ -11,3 +11,4 @@ RUN npx create-react-app kasturi -y
 WORKDIR kasturi
 RUN npm init -y
 CMD npm run start
+EXPOSE 3000
